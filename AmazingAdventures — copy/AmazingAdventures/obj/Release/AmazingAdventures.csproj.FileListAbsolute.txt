@@ -1,0 +1,8 @@
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Release\AmazingAdventures.exe.config
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Release\AmazingAdventures.exe
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Release\AmazingAdventures.pdb
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Release\AmazingAdventures.Form1.resources
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Release\AmazingAdventures.Properties.Resources.resources
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Release\AmazingAdventures.csproj.GenerateResource.Cache
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Release\AmazingAdventures.exe
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Release\AmazingAdventures.pdb

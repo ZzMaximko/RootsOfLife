@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{397F31DA-3733-4B6D-BBDB-2DAF28A76795}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AmazingAdventures</RootNamespace>
+    <AssemblyName>AmazingAdventures</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>game_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bottle.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hero.cs" />
+    <Compile Include="InterfaceItems.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="MapItem.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rock.cs" />
+    <Compile Include="Stone.cs" />
+    <Compile Include="Tree.cs" />
+    <Compile Include="Wood.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\air_sword.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_game_inactive.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_game_word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load_game_word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_word_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load_game_word_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_game_word_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_word_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_word_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_game.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_game_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attantion_new_game_name.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\333800__foolboymedia__sunday-morning-in-the-great-hall.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_btn_move.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\sound_btn_clicked.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message_canvas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collect_word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collect_word_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\264828__cmdrobot__text-message-or-videogame-jump.wav">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\123_air_sword.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\air_sword.wav">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cursorGauntlet_bronze.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\cursorGauntlet_bronze.cur">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_inventory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\257997__foolboymedia__shanty-town.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\tree_sword.wav">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\467605__triqystudio__closebag.wav">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interaction_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\pickup_coin.wav">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\pickup_item.wav">
+      <CustomToolNamespace>AmazingAdvantures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventoryBuildHouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventoryBuildHouse_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory_background_text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\build_construction.wav">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sky_loop.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\author_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\author_word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\author_word_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savegame_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\sword_attack_enemies.wav">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\stone_crashed.wav">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\throw_stone.wav">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\bow_pull.wav">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\bow_swishing.wav">
+      <CustomToolNamespace>AmazingAdventures</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory_coins_form.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin_gui_form.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\congrats_word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\congrats_word_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_menu_word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_menu_word_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_background_gameover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_background_winner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_background_pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="game_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

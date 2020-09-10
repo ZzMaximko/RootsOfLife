@@ -1,0 +1,33 @@
+c:\users\loshoped\documents\visual studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Debug\AmazingAdventures.exe.config
+c:\users\loshoped\documents\visual studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Debug\AmazingAdventures.exe
+c:\users\loshoped\documents\visual studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Debug\AmazingAdventures.pdb
+c:\users\loshoped\documents\visual studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.csprojResolveAssemblyReference.cache
+c:\users\loshoped\documents\visual studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.Form1.resources
+c:\users\loshoped\documents\visual studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.Properties.Resources.resources
+c:\users\loshoped\documents\visual studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.csproj.GenerateResource.Cache
+c:\users\loshoped\documents\visual studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.exe
+c:\users\loshoped\documents\visual studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.pdb
+S:\документы\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Debug\AmazingAdventures.exe.config
+S:\документы\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.exe
+S:\документы\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.pdb
+S:\документы\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Debug\AmazingAdventures.exe
+S:\документы\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Debug\AmazingAdventures.pdb
+S:\документы\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.csprojResolveAssemblyReference.cache
+S:\документы\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.Form1.resources
+S:\документы\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.Properties.Resources.resources
+S:\документы\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.csproj.GenerateResource.Cache
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Debug\AmazingAdventures.exe.config
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.exe
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.pdb
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Debug\AmazingAdventures.exe
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\bin\Debug\AmazingAdventures.pdb
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.Form1.resources
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.Properties.Resources.resources
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.csproj.GenerateResource.Cache
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures\AmazingAdventures\obj\Debug\AmazingAdventures.csprojResolveAssemblyReference.cache
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures — копия\AmazingAdventures\bin\Debug\AmazingAdventures.exe.config
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures — копия\AmazingAdventures\obj\Debug\AmazingAdventures.exe
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures — копия\AmazingAdventures\obj\Debug\AmazingAdventures.pdb
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures — copy\AmazingAdventures\bin\Debug\AmazingAdventures.exe.config
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures — copy\AmazingAdventures\obj\Debug\AmazingAdventures.exe
+S:\MyPROJECTS\Visual Studio 2015\Projects\AmazingAdventures — copy\AmazingAdventures\obj\Debug\AmazingAdventures.pdb
